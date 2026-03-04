@@ -1,0 +1,111 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 32px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+  padding: 18px 32px;
+  min-width: 420px;
+  gap: 16px;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.label {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.productTitle {
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 8px;
+  word-break: break-word;
+}
+
+@media (max-width: 900px) {
+  .titleContainer {
+    padding: 14px 22px;
+    min-width: 350px;
+    gap: 12px;
+  }
+
+  .icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .label {
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+  }
+
+  .productTitle {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 700px) {
+  .titleContainer {
+    padding: 12px 16px;
+    min-width: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .icon {
+    width: 42px;
+    height: 42px;
+    order: 1;
+  }
+
+  .label {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+    letter-spacing: 0.3px;
+    order: 2;
+    flex: 1;
+  }
+
+  .productTitle {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin-top: 0;
+    order: 3;
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .titleContainer {
+    padding: 8px 12px;
+    gap: 8px;
+  }
+
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .label {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+
+  .productTitle {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+}

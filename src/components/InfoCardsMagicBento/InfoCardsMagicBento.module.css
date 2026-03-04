@@ -1,0 +1,193 @@
+.section {
+  width: 100%;
+  padding: 54px 0;
+}
+
+.grid {
+  width: min(1400px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
+/* ---------- MAGIC CARD (React Bits vibe) ---------- */
+
+.magicCard {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+
+  /* borde sutil como mock */
+  border: 1px solid rgba(234, 247, 247, 0.18);
+  background: rgba(6, 20, 20, 0.18);
+
+  /* variables del glow */
+  --glow-x: 50%;
+  --glow-y: 50%;
+  --glow-intensity: 0;
+  --glow-radius: 180px;
+  --glow-color: 126, 194, 192; /* default aqua */
+
+  /* depth */
+  box-shadow:
+    0 0 0 1px rgba(234, 247, 247, 0.05) inset,
+    0 24px 70px rgba(0, 0, 0, 0.45);
+
+  transition: transform 160ms ease, box-shadow 200ms ease;
+}
+
+.magicCard:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 0 1px rgba(234, 247, 247, 0.08) inset,
+    0 28px 90px rgba(0, 0, 0, 0.55);
+}
+
+/* spotlight suave dentro de la card */
+.spotlightOn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 1;
+  z-index: 0;
+
+  background: radial-gradient(
+    var(--glow-radius) circle at var(--glow-x) var(--glow-y),
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.22)) 0%,
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.12)) 18%,
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.06)) 30%,
+    transparent 62%
+  );
+}
+
+/* border glow */
+.borderGlow::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 7px;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+
+  background: radial-gradient(
+    var(--glow-radius) circle at var(--glow-x) var(--glow-y),
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.55)) 0%,
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.25)) 30%,
+    transparent 62%
+  );
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+/* ---------- CARD CONTENT ---------- */
+
+.card {
+  min-height: 260px;
+}
+
+.cardInner {
+  position: relative;
+  z-index: 2; /* arriba del glow */
+  height: 100%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.title {
+  margin: 0 0 14px 0;
+  white-space: pre-line;
+  color: #eaf7f7;
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.3px;
+}
+
+.desc {
+  margin: 0;
+  white-space: pre-line;
+  color: rgba(234, 247, 247, 0.82);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.more {
+  color: #eaf7f7;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.arrow {
+  width: 84px;
+  height: 2px;
+  background: rgba(234, 247, 247, 0.95);
+  position: relative;
+  border-radius: 2px;
+}
+
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: -2px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid rgba(234, 247, 247, 0.95);
+  border-top: 2px solid rgba(234, 247, 247, 0.95);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+/* ---------- PARTICLES + RIPPLE ---------- */
+
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(var(--particle-color), 1);
+  box-shadow: 0 0 10px rgba(var(--particle-color), 0.55);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 999px;
+  pointer-events: none;
+  z-index: 6;
+
+  background: radial-gradient(
+    circle,
+    rgba(var(--ripple-color), 0.35) 0%,
+    rgba(var(--ripple-color), 0.18) 28%,
+    transparent 70%
+  );
+}

@@ -1,0 +1,38 @@
+.animatedGradientText {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.withBorder {
+  padding: 0.35rem 0.75rem;
+  border-radius: 1.25rem;
+}
+
+.gradientOverlay {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.gradientOverlay::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background-color: #060010;
+}
+
+.textContent {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+

@@ -1,0 +1,104 @@
+.carouselContainer {
+  position: relative;
+  overflow: hidden;
+
+  /* tu mock tiene card grande, sin borde duro */
+  border-radius: 26px;
+
+  /* glow suave tipo “neon” del contenedor derecho */
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 18px 60px rgba(0, 0, 0, 0.55);
+
+}
+
+/* track */
+.carouselTrack {
+  display: flex;
+  height: 100%;
+  cursor: grab;
+}
+
+.carouselTrack:active {
+  cursor: grabbing;
+}
+
+/* item */
+.carouselItem {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  height: 100%;
+  overflow: hidden;
+
+  /* importante para que el 3D quede bien */
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+/* imagen */
+.carouselImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* indicadores */
+.indicatorsContainer {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  z-index: 2;
+
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(8px);
+}
+
+.indicators {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicator {
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: border-color 150ms, background-color 150ms, transform 150ms;
+}
+
+.indicatorActive {
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(255, 255, 255, 0.92);
+}
+
+.indicatorInactive {
+  background: rgba(255, 255, 255, 0.10);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* compat con round=true del original (por si lo usás) */
+.roundContainer {
+  border-radius: 50%;
+}
+
+.roundIndicatorsContainer {
+  bottom: 3em;
+}
+
+

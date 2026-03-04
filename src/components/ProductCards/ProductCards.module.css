@@ -1,0 +1,101 @@
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin: 10px 0;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+  cursor: pointer;
+  animation-fill-mode: both;
+}
+
+.cardImg {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.fadeUp {
+  animation: fadeUp 0.5s cubic-bezier(.5,1.5,.5,1) forwards;
+}
+.fadeDown {
+  animation: fadeDown 0.5s cubic-bezier(.5,1.5,.5,1) forwards;
+}
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeDown {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(40px); }
+}
+
+@media (max-width: 900px) {
+  .cardsContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  .card {
+    width: 150px;
+    height: 150px;
+  }
+
+  .cardImg {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    padding: 0 12px;
+  }
+
+  .card {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cardImg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 0 8px;
+  }
+
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cardImg {
+    width: 60px;
+    height: 60px;
+  }
+}

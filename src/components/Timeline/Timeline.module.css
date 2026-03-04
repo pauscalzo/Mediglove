@@ -1,0 +1,376 @@
+.timelineSection {
+  padding: 60px 60px;
+  background: #02181A;
+  border: 1px solid #02181A;
+  border-radius: 25px;
+  margin: 60px 0;
+}
+
+.sectionTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 48px;
+  line-height: 1.2;
+  padding: 0 40px;
+  margin-top: 60px;
+}
+
+.timelineContainer {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timelineLine {
+  position: absolute;
+  left: 0px;
+  width: 4px;
+  height: 94%;
+  background: linear-gradient(180deg, 
+    #2197C1 0%,
+    #AC80B6 100%
+  );
+  top: 21px;
+  z-index: 0;
+}
+
+.timelineContent {
+  position: relative;
+  z-index: 1;
+}
+
+.timelineItem {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 40px;
+  margin-bottom: 20px;
+  position: relative;
+  align-items: flex-start;
+}
+
+.timelinePoint {
+  position: absolute;
+  left: -11px;
+  width: 28px;
+  height: 28px;
+  background: #AAAAAA;
+  border-radius: 50%;
+  border: 6px solid #000000;
+  top: 20px;
+  z-index: 10;
+}
+
+.yearLabel {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: #AAAAAA;
+  text-align: right;
+  margin: 0;
+}
+
+.timelineCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px 40px;
+}
+
+.timelineSubItem {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.timelineSubItem:not(:last-of-type) {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+  max-height: 280px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .timelineSection {
+    padding: 50px 40px;
+  }
+
+  .sectionTitle {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    padding: 0 20px;
+  }
+
+  .timelineContainer {
+    padding: 0 30px;
+  }
+
+  .timelineLine {
+    left: 60px;
+    height: 95%;
+  }
+
+  .timelinePoint {
+    left: 18px;
+  }
+
+  .timelineItem {
+    grid-template-columns: 90px 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .yearLabel {
+    font-size: 2.2rem;
+    z-index: 100;
+    color: #ffffff;
+    margin-top: -10px;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .image {
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .timelineSection {
+    padding: 40px 20px;
+    border-radius: 16px;
+    margin: 40px 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.6rem;
+    margin-bottom: 36px;
+    padding: 0 10px;
+    margin-top: 40px;
+  }
+
+  .timelineContainer {
+    padding: 0 15px;
+  }
+
+  .timelineLine {
+    left: 35px;
+    height: 96%;
+    width: 3px;
+  }
+
+  .timelinePoint {
+    left: 18px;
+    width: 20px;
+    height: 20px;
+    border-width: 4px;
+    top: 15px;
+  }
+
+  .timelineItem {
+    grid-template-columns: 60px 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .yearLabel {
+    font-size: 1.8rem;
+    font-weight: 800;
+    z-index: 100;
+    color: #ffffff;
+    margin-top: -10px;
+  }
+
+  .timelineCard {
+    padding: 24px 28px;
+    gap: 16px;
+  }
+
+  .timelineSubItem:not(:last-of-type) {
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .image {
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .timelineSection {
+    padding: 30px 16px;
+    border-radius: 14px;
+  }
+
+  .sectionTitle {
+    font-size: 1.4rem;
+    margin-bottom: 32px;
+    padding: 0;
+  }
+
+  .timelineContainer {
+    padding: 0;
+  }
+
+  .timelineLine {
+    left: 28px;
+    width: 3px;
+  }
+
+  .timelinePoint {
+    left: 19px;
+    width: 18px;
+    height: 18px;
+    border-width: 3px;
+    top: 16px;
+  }
+
+  .timelineItem {
+    grid-template-columns: 50px 1fr;
+    gap: 15px;
+    margin-bottom: 35px;
+  }
+
+  .yearLabel {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    z-index: 100;
+    color: #ffffff;
+    margin-top: -10px;
+  }
+
+  .timelineCard {
+    padding: 20px 20px;
+    gap: 14px;
+    border-radius: 12px;
+  }
+
+  .title {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  .description {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .image {
+    max-height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .timelineSection {
+    padding: 25px 14px;
+  }
+
+  .sectionTitle {
+    font-size: 1.2rem;
+    margin-bottom: 28px;
+  }
+
+  .timelineLine {
+    left: 22px;
+  }
+
+  .timelinePoint {
+    left: 15px;
+    width: 16px;
+    height: 16px;
+    border-width: 3px;
+  }
+
+  .timelineItem {
+    grid-template-columns: 45px 1fr;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+
+  .yearLabel {
+    font-size: 1.3rem;
+    z-index: 100;
+    color: #ffffff;
+    margin-top: -10px;
+  }
+
+  .timelineCard {
+    padding: 18px 16px;
+    gap: 12px;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .image {
+    max-height: 140px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 360px) {
+  .sectionTitle {
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+  }
+
+  .timelineItem {
+    grid-template-columns: 40px 1fr;
+    gap: 10px;
+  }
+
+  .yearLabel {
+    font-size: 1.2rem;
+    z-index: 100;
+    color: #ffffff;
+    margin-top: -10px;
+  }
+}

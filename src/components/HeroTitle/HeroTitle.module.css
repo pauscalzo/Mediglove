@@ -1,0 +1,48 @@
+.hero {
+  width: min(980px, 100%);
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0 0;
+}
+
+.title {
+  font-size: clamp(32px, 4vw, 54px);
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0;
+  color: #f0ffff;
+}
+
+.highlight {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  margin-left: 10px;
+  border-radius: 16px;
+  background: rgba(142, 201, 195, 0.8);
+  color: #0f2a2b;
+  overflow: hidden;
+
+  /* 👇 esto ayuda a que la animación de size se sienta buttery */
+  will-change: width, height;
+}
+
+/* RotatingText hooks */
+.rotateMain {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1; /* 👈 evita saltos verticales */
+}
+
+.rotateClip {
+  overflow: hidden;
+  padding-bottom: 2px;
+}
+
+.rotateEl {
+  display: inline-block;
+}
+
+

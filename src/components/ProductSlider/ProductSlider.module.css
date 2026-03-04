@@ -1,0 +1,161 @@
+.slider {
+  margin-top: 56px;
+}
+
+.track {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding: 0 8px 18px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.track::-webkit-scrollbar {
+  height: 6px;
+}
+
+.track::-webkit-scrollbar-thumb {
+  background: rgba(230, 248, 248, 0.25);
+  border-radius: 999px;
+}
+
+.card {
+  flex: 0 0 280px;
+  border-radius: 24px;
+  padding: 28px 22px 22px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 360px;
+  scroll-snap-align: start;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  background-color: inherit;
+}
+
+/* Barra inferior fuerte para cada card */
+.card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 70px;
+  border-radius: 0 0 24px 24px;
+  z-index: 3;
+  /* Color por defecto, override abajo */
+  background: rgba(0,0,0,0.18);
+}
+
+/* NITRILO */
+.card:nth-child(3n+1)::after {
+  background: #1876a0;
+}
+/* ESTERIL */
+.card:nth-child(3n+2)::after {
+  background: #3fa59b;
+}
+/* DOMESTICOS */
+.card:nth-child(3n+3)::after {
+  background: #d97ab2;
+}
+
+/* Imagen detrás de la barra de color */
+.imageWrap {
+  position: relative;
+  z-index: 1;
+}
+
+/* Contenido (header, badges) arriba de la barra */
+.card > .cardHeader,
+.card > .badgeWrap {
+  position: relative;
+  z-index: 4;
+}
+
+.cardHeader {
+  text-align: left;
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  display: block;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  display: block;
+  margin-top: 4px;
+}
+
+.imageWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.image {
+  width: 160px;
+  height: auto;
+  object-fit: contain;
+}
+
+.badgeWrap {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0 0;
+}
+
+.badge {
+  height: 32px;
+  width: auto;
+}
+
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.controlButton {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(230, 248, 248, 0.15);
+  color: #e6f8f8;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.controlButton:hover {
+  background: rgba(230, 248, 248, 0.28);
+}
+
+@media (max-width: 900px) {
+  .slider {
+    margin-top: 36px;
+  }
+
+  .track {
+    padding: 0 4px 16px;
+  }
+
+  .card {
+    flex-basis: 240px;
+    min-height: 320px;
+  }
+
+  .image {
+    width: 140px;
+  }
+}
