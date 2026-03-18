@@ -16,6 +16,7 @@ import HomePage from './pages/HomePage';
 import CategoryPage from './pages/CategoryPage';
 import ProductPage from './pages/ProductPage';
 import AboutPage from './pages/AboutPage';
+import AsesoramientoPage from './pages/AsesoramientoPage';
 
 const getBasename = () => {
   // Only use basename in production
@@ -51,6 +52,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/quienes-somos" element={<AboutPage />} />
+            <Route path="/asesoramiento" element={<AsesoramientoPage />} />
             <Route path="/categoria/:category" element={<CategoryPage />} />
             <Route path="/producto/:id" element={<ProductPage />} />
           </Routes>

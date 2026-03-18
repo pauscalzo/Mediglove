@@ -1,0 +1,186 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 32px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #b8d4d3;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 48px;
+  line-height: 1.6;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  position: relative;
+}
+
+.card.active {
+  border-color: rgba(200, 156, 178, 0.8) !important;
+  background: rgba(200, 156, 178, 0.15) !important;
+}
+
+.cardButton {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  text-align: left;
+  position: relative;
+  z-index: 2;
+}
+
+.cardInner {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  padding: 20px;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.cardText {
+  font-size: 0.9rem;
+  color: #a8c8c8;
+  margin: 0;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.arrow {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #78BAB9;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.card.active .arrow {
+  color: rgba(200, 156, 178, 0.9);
+}
+
+.card:hover .arrow {
+  transform: translateX(4px);
+}
+
+/* CONTENT AREA */
+.contentArea {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(234, 247, 247, 0.18);
+  border-radius: 16px;
+  padding: 40px;
+  min-height: 400px;
+  box-shadow: 0 0 0 1px rgba(234, 247, 247, 0.05) inset, 0 24px 70px rgba(0, 0, 0, 0.45);
+}
+
+.contentTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.5px;
+}
+
+.contentBody {
+  color: #b8d4d3;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .container {
+    padding: 40px 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+  }
+
+  .cardInner {
+    padding: 16px;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .cardText {
+    font-size: 0.85rem;
+  }
+
+  .contentArea {
+    padding: 24px;
+    min-height: auto;
+  }
+
+  .contentTitle {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .cardsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .contentArea {
+    padding: 16px;
+  }
+}

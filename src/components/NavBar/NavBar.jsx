@@ -62,7 +62,7 @@ function NavBar() {
       subitems: productCategories
     },
     { label: 'Quienes Somos', link: '/quienes-somos' },
-    { label: 'Asesoramiento', link: '#advice' },
+    { label: 'Asesoramiento', link: '/asesoramiento' },
     { label: 'Contacto', link: '#contact' }
   ];
 

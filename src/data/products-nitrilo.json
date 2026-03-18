@@ -1,69 +1,6 @@
 [
   {
-    "id": 1,
-    "image": "./img/nitrilo-celeste.png",
-    "images": [
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "nitrilo",
-    "price": 4200,
-    "subtitle": "Alta resistencia y sensibilidad táctil",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Apto para uso médico y alimenticio.",
-    "description": "Guantes de nitrilo color lavanda, libres de polvo, ideales para tareas que requieren máxima higiene y protección. No contienen látex, minimizando el riesgo de alergias."
-  },
-  {
     "id": 2,
-    "image": "./img/nitrilo-blanco.png",
-    "images": [
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-celeste.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "nitrilo",
-    "price": 4250,
-    "subtitle": "Sin látex, máxima protección",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No estéril. Uso único.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, resistentes a químicos y perforaciones. Perfectos para laboratorios, clínicas y gastronomía."
-  },
-  {
-    "id": 3,
-    "image": "./img/nitrilo-lavanda.png",
-    "images": [
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "nitrilo",
-    "price": 4300,
-    "subtitle": "Comodidad y ajuste perfecto",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Ambidiestros. Bordes reforzados.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con excelente elasticidad y ajuste anatómico. Ideales para tareas prolongadas."
-  },
-  {
-    "id": 4,
     "image": "./img/nitrilo-celeste.png",
     "images": [
       "./img/nitrilo-celeste.png",
@@ -75,475 +12,32 @@
       "./img/nitrilo-celeste.png",
       "./img/nitrilo-blanco.png"
     ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
+    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo - (1x100un)",
     "category": "nitrilo",
-    "price": 4150,
-    "subtitle": "Superficie microtexturada",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No contiene proteínas de látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con superficie microtexturada para mejor agarre en ambientes húmedos o secos."
-  },
-  {
-    "id": 5,
-    "image": "./img/nitrilo-blanco.png",
-    "images": [
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/guante-nitrilo.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "nitrilo",
-    "price": 4220,
-    "subtitle": "Alta sensibilidad táctil",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Apto para personas alérgicas al látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, diseñados para procedimientos médicos y manipulación de alimentos."
-  },
-  {
-    "id": 6,
-    "image": "./img/nitrilo-lavanda.png",
-    "images": [
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "nitrilo",
-    "price": 4190,
-    "subtitle": "Fácil colocación y remoción",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No estéril. Uso único.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con puño largo para mayor protección."
-  },
-  {
-    "id": 7,
-    "image": "./img/nitrilo-celeste.png",
-    "images": [
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "esteriles",
-    "price": 4180,
-    "subtitle": "Resistentes a químicos comunes",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Ambidiestros. Bordes reforzados.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, recomendados para tareas de limpieza y laboratorio."
-  },
-  {
-    "id": 8,
-    "image": "./img/nitrilo-blanco.png",
-    "images": [
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/guante-nitrilo.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "esteriles",
-    "price": 4210,
-    "subtitle": "Gran elasticidad y confort",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No contiene proteínas de látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con diseño ergonómico para mayor comodidad."
-  },
-  {
-    "id": 9,
-    "image": "./img/nitrilo-lavanda.png",
-    "images": [
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "esteriles",
-    "price": 4230,
-    "subtitle": "Uso profesional y doméstico",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Apto para personas alérgicas al látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, ideales para tareas de precisión y manipulación de alimentos."
-  },
-  {
-    "id": 10,
-    "image": "./img/nitrilo-celeste.png",
-    "images": [
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "domesticos",
-    "price": 4170,
-    "subtitle": "Alta resistencia a desgarros",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No estéril. Uso único.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con refuerzo en los dedos para mayor durabilidad."
-  },
-  {
-    "id": 11,
-    "image": "./img/nitrilo-blanco.png",
-    "images": [
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/guante-nitrilo.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "domesticos",
-    "price": 4260,
-    "subtitle": "Textura antideslizante",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Ambidiestros. Bordes reforzados.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con textura especial para mejor agarre."
-  },
-  {
-    "id": 12,
-    "image": "./img/nitrilo-lavanda.png",
-    "images": [
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "pe",
-    "price": 4290,
-    "subtitle": "Fáciles de poner y quitar",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No contiene proteínas de látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con puño enrollado para evitar desgarros."
-  },
-  {
-    "id": 13,
-    "image": "./img/nitrilo-celeste.png",
-    "images": [
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "pe",
-    "price": 4160,
-    "subtitle": "Gran adaptabilidad",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Apto para uso médico y alimenticio.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con ajuste anatómico y máxima flexibilidad."
-  },
-  {
-    "id": 14,
-    "image": "./img/nitrilo-blanco.png",
-    "images": [
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/guante-nitrilo.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "pe",
-    "price": 4240,
-    "subtitle": "Alta protección y confort",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No estéril. Uso único.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, recomendados para tareas de limpieza y laboratorio."
-  },
-  {
-    "id": 15,
-    "image": "./img/nitrilo-lavanda.png",
-    "images": [
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "pe",
-    "price": 4280,
-    "subtitle": "Superficie microtexturada",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Ambidiestros. Bordes reforzados.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con superficie microtexturada para mejor agarre."
+    "price": 7.555,
+    "subtitle": "Cod. 08011-al-08015. Según talle. Precio IVA incluido.PM-1015-25",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Cajas de 100 unidades c/u. 10 Cajas por Cajon Master. Marca: MEDIGLOVE. Color: Lavanda = Lila. Largo: 240mm. Sin polvo. Sin Latex"
   },
   {
     "id": 16,
-    "image": "./img/nitrilo-celeste.png",
-    "images": [
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "pe",
-    "price": 4195,
-    "subtitle": "Alta sensibilidad táctil",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Apto para personas alérgicas al látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, diseñados para procedimientos médicos y manipulación de alimentos."
-  },
-  {
-    "id": 17,
     "image": "./img/nitrilo-blanco.png",
     "images": [
       "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
       "./img/nitrilo-celeste.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/guante-nitrilo.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "vinilo",
-    "price": 4270,
-    "subtitle": "Comodidad y ajuste perfecto",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No estéril. Uso único.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con excelente elasticidad y ajuste anatómico."
-  },
-  {
-    "id": 18,
-    "image": "./img/nitrilo-lavanda.png",
-    "images": [
       "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
       "./img/guante-nitrilo.png",
       "./img/guante-esteril.png",
       "./img/guante-domestico.png",
-      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-blanco.png",
       "./img/nitrilo-celeste.png"
     ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "vinilo",
-    "price": 4205,
-    "subtitle": "Fácil colocación y remoción",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Ambidiestros. Bordes reforzados.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con puño largo para mayor protección."
-  },
-  {
-    "id": 19,
-    "image": "./img/nitrilo-celeste.png",
-    "images": [
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "vinilo",
-    "price": 4185,
-    "subtitle": "Resistentes a químicos comunes",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No contiene proteínas de látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, recomendados para tareas de limpieza y laboratorio."
-  },
-  {
-    "id": 20,
-    "image": "./img/nitrilo-blanco.png",
-    "images": [
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/guante-nitrilo.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "vinilo",
-    "price": 4215,
-    "subtitle": "Gran elasticidad y confort",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Apto para uso médico y alimenticio.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con diseño ergonómico para mayor comodidad."
-  },
-  {
-    "id": 21,
-    "image": "./img/nitrilo-lavanda.png",
-    "images": [
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "natural-latex",
-    "price": 4235,
-    "subtitle": "Uso profesional y doméstico",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No estéril. Uso único.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, ideales para tareas de precisión y manipulación de alimentos."
-  },
-  {
-    "id": 22,
-    "image": "./img/nitrilo-celeste.png",
-    "images": [
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "natural-latex",
-    "price": 4175,
-    "subtitle": "Alta resistencia a desgarros",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Ambidiestros. Bordes reforzados.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con refuerzo en los dedos para mayor durabilidad."
-  },
-  {
-    "id": 23,
-    "image": "./img/nitrilo-blanco.png",
-    "images": [
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/guante-nitrilo.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "natural-latex",
-    "price": 4265,
-    "subtitle": "Textura antideslizante",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No contiene proteínas de látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con textura especial para mejor agarre."
-  },
-  {
-    "id": 24,
-    "image": "./img/nitrilo-lavanda.png",
-    "images": [
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "natural-latex",
-    "price": 4295,
-    "subtitle": "Fáciles de poner y quitar",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Apto para personas alérgicas al látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con puño enrollado para evitar desgarros."
-  },
-  {
-    "id": 25,
-    "image": "./img/nitrilo-celeste.png",
-    "images": [
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/guante-nitrilo.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/nitrilo-celeste.png",
-      "./img/nitrilo-blanco.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "natural-latex",
-    "price": 4165,
-    "subtitle": "Gran adaptabilidad",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No estéril. Uso único.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con ajuste anatómico y máxima flexibilidad."
-  },
-  {
-    "id": 26,
-    "image": "./img/nitrilo-blanco.png",
-    "images": [
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png",
-      "./img/nitrilo-celeste.png",
-      "./img/guante-esteril.png",
-      "./img/guante-domestico.png",
-      "./img/guante-nitrilo.png",
-      "./img/nitrilo-blanco.png",
-      "./img/nitrilo-lavanda.png"
-    ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
-    "category": "natural-latex",
-    "price": 4245,
-    "subtitle": "Alta protección y confort",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Ambidiestros. Bordes reforzados.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, recomendados para tareas de limpieza y laboratorio."
+    "title": "Guantes De Nitrilo Azul. Sin Polvo - (1x100un)",
+    "category": "nitrilo",
+    "price": 7.555,
+    "subtitle": "Cod. 08069-72. Segun talle. Precio IVA incluido. PM 1015-25",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Azul cyan. Largo: 240mm. Calidad superiorSin polvo. Nitrilo libres de latex"
   },
   {
     "id": 27,
@@ -558,16 +52,15 @@
       "./img/nitrilo-lavanda.png",
       "./img/nitrilo-celeste.png"
     ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
+    "title": "Guantes De Nitrilo Caña Larga Blanco Sin Polvo - (1x100u)",
     "category": "nitrilo",
-    "price": 4285,
-    "subtitle": "Superficie microtexturada",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No contiene proteínas de látex.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con superficie microtexturada para mejor agarre."
+    "price": 29.120,
+    "subtitle": "Cod. 08007-11. Segun talle. Precio IVA incluido. PM 1015-14",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Blanco. Largo: 300mm. Calidad superior grip excelente de mayor grosor al standar. Sin polvo. Libres de latex nitrilo alta calidad"
   },
   {
-    "id": 28,
+    "id": 54,
     "image": "./img/nitrilo-celeste.png",
     "images": [
       "./img/nitrilo-celeste.png",
@@ -579,16 +72,15 @@
       "./img/nitrilo-celeste.png",
       "./img/nitrilo-blanco.png"
     ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
+    "title": "Guantes Nitrilo Negro. Reforzado (1x100un)",
     "category": "nitrilo",
-    "price": 4192,
-    "subtitle": "Alta sensibilidad táctil",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Apto para uso médico y alimenticio.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, diseñados para procedimientos médicos y manipulación de alimentos."
+    "price": 10.360,
+    "subtitle": "Cod. 08017-al-08020. Según talle.. Precio IVA incluido. PM- 1015-25",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Negro. Largo: 240 mm. Sin polvo. Sin Latex"
   },
   {
-    "id": 29,
+    "id": 58,
     "image": "./img/nitrilo-blanco.png",
     "images": [
       "./img/nitrilo-blanco.png",
@@ -600,16 +92,15 @@
       "./img/nitrilo-blanco.png",
       "./img/nitrilo-lavanda.png"
     ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
+    "title": "Guantes De Nitrilo Caña Larga BLUE 300 Sin Polvo - (1x100un)",
     "category": "nitrilo",
-    "price": 4275,
-    "subtitle": "Comodidad y ajuste perfecto",
-    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "No estéril. Uso único.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con excelente elasticidad y ajuste anatómico."
+    "price": 27.040,
+    "subtitle": "Cod. 08108-al-08111. Según talle. Precio IVA incluido. PM1015-25",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Blue. Largo: 300mm. Sin polvo. Sin Latex"
   },
   {
-    "id": 30,
+    "id": 59,
     "image": "./img/nitrilo-lavanda.png",
     "images": [
       "./img/nitrilo-lavanda.png",
@@ -621,12 +112,331 @@
       "./img/nitrilo-lavanda.png",
       "./img/nitrilo-celeste.png"
     ],
-    "title": "Guantes De Nitrilo Lavanda = Lila. Sin Polvo (1x100 Un)",
+    "title": "Guantes De Nitrilo Black soft. Sin Polvo - (1x100un)",
     "category": "nitrilo",
-    "price": 4202,
-    "subtitle": "Fácil colocación y remoción",
+    "price": 9.013,
+    "subtitle": "Cod. 08103-al-08106. Segun talle. Precio IVA incluido. PM1015-25",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Negro (Black soft). Largo: 240mm. Calidad superior. Sin polvo. Nitrilo libres de latex"
+  },
+  {
+    "id": 60,
+    "image": "./img/nitrilo-celeste.png",
+    "images": [
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/guante-nitrilo.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png"
+    ],
+    "title": "Guantes De Nitrilo Rosa bebé Sin Polvo -(1x100un)",
+    "category": "nitrilo",
+    "price": 9.013,
+    "subtitle": "Cod. 08092-al-08095. Segun talle. Precio IVA incluido. PM 1015-25",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Rosa bebé. Largo: 240mm. Calidad superior. Sin polvo. Nitrilo libres de latex"
+  },
+  {
+    "id": 61,
+    "image": "./img/nitrilo-blanco.png",
+    "images": [
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/guante-nitrilo.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png"
+    ],
+    "title": "Guantes de Nitrilo Orange - Textura diamante -(1x100un)",
+    "category": "nitrilo",
+    "price": 8.394,
+    "subtitle": "Cod. 08011-al-08015. Según talle. Precio IVA incluido. PM-1015-14 / 1015-20",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Cajas de 50 unidades c/u. Marca: MEDIGLOVE. Color: Orange. Largo: 240mm. Sin polvo. Sin Latex"
+  },
+  {
+    "id": 70,
+    "image": "./img/nitrilo-lavanda.png",
+    "images": [
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png",
+      "./img/guante-nitrilo.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png"
+    ],
+    "title": "Guantes de Nitrilo BLACK DIAMOND - Textura diamante -(1x50un)",
+    "category": "nitrilo",
+    "price": 8.394,
+    "subtitle": "Cod. 08118-al-08120. Según talle. Precio IVA incluido. PM-1015-25",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Cajas de 50 unidades c/u. Marca: MEDIGLOVE. Color: BLACK. Largo: 240mm. Sin polvo. Sin Latex"
+  },
+  {
+    "id": 57,
+    "image": "./img/nitrilo-celeste.png",
+    "images": [
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/guante-nitrilo.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png"
+    ],
+    "title": "GUANTES DE VINILO TRANSPARENTE (1x100UN) - MEDIGLOVE",
+    "category": "vinilo",
+    "price": 3.976,
+    "subtitle": "Cod. 08156-08159",
+    "sizes": ["S", "M", "L"],
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Cristal. Largo: 240mm. Sin polvo. Sin Latex"
+  },
+  {
+    "id": 6,
+    "image": "./img/nitrilo-blanco.png",
+    "images": [
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/guante-nitrilo.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png"
+    ],
+    "title": "Guantes Estériles Libre De Látex De NITRILO BLANCO - PAR",
+    "category": "esteril",
+    "price": 1.381,
+    "subtitle": "Cod. 07009-al-07013. Según talle. Precio IVA incluido. PM-1015-24",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "50 pares por cajita dispenser. 8 cajas por master = 400 pares el cajón. Marca: Mediglove. Color: Blanco. Largo: 300 mm. Nitrilo, sin polvo. Libres de latex estériles para uso quirurgico"
+  },
+  {
+    "id": 11,
+    "image": "./img/nitrilo-lavanda.png",
+    "images": [
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png",
+      "./img/guante-nitrilo.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png"
+    ],
+    "title": "Guantes Esteriles Sin Polvo LATEX ODC - PAR",
+    "category": "esteril",
+    "price": 1.381,
+    "subtitle": "Cod. 07001-al-07007. Según talle. Precio IVA incluido. PM 1015-23",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "50 pares por caja dispenser. 8 cajas por master = 400 pares el cajón. Marca: Mediglove. Color: Amarillo crema. Largo: 300 mm. Látex. Sin Polvo doble clorinados."
+  },
+  {
+    "id": 62,
+    "image": "./img/nitrilo-celeste.png",
+    "images": [
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/guante-nitrilo.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png"
+    ],
+    "title": "Guantes para cirugía sin polvo LATEX HBM - PAR",
+    "category": "esteril",
+    "price": 479,
+    "subtitle": "Cod. 07040-al-07044. Según talle. Precio IVA incluido. PM 1015-26",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: Blancos. Largo: 285/290 mm. Látex. Sin Polvo Polymer coated."
+  },
+  {
+    "id": 63,
+    "image": "./img/nitrilo-blanco.png",
+    "images": [
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/guante-nitrilo.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png"
+    ],
+    "title": "Guantes para cirugía sin polvo LATEX UNDERGLOVE- PAR",
+    "category": "esteril",
+    "price": 1.381,
+    "subtitle": "Cod. 07056-al-07059. Según talle. Precio IVA incluido. PM 1015-26",
     "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "note": "Ambidiestros. Bordes reforzados.",
-    "description": "Guantes de nitrilo lavanda, sin polvo, con puño largo para mayor protección."
+    "description": "50 pares por caja dispenser. Marca: Mediglove. Color: VERDE. Largo: 280 mm. Látex. Sin Polvo Polymer coated."
+  },
+  {
+    "id": 64,
+    "image": "./img/nitrilo-lavanda.png",
+    "images": [
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png",
+      "./img/guante-nitrilo.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png"
+    ],
+    "title": "Guantes para cirugías sin polvo LATEX ORTOPEDICO- PAR",
+    "category": "esteril",
+    "price": 1.712,
+    "subtitle": "Cod. 07051-al-07054. Según talle. Precio IVA incluido. PM-1015-26",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: MARRON. Largo: 285/290mm. Latex, sin polvo polymer coated. Especificos para uso ortopedico estériles para uso quirurgico"
+  },
+  {
+    "id": 65,
+    "image": "./img/nitrilo-celeste.png",
+    "images": [
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/guante-nitrilo.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png"
+    ],
+    "title": "Guantes para cirugías sin polvo LATEX SENSITIVE- PAR",
+    "category": "esteril",
+    "price": 1.519,
+    "subtitle": "Cod. 07046-al-07049. Según talle. Precio IVA incluido. PM 1015-26",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: Blancos. Largo: 285/290 mm. Látex. Sin Polvo Polymer coated."
+  },
+  {
+    "id": 67,
+    "image": "./img/nitrilo-blanco.png",
+    "images": [
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/guante-nitrilo.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png"
+    ],
+    "title": "Guantes para cirugías sin polvo sin latex POLYISOPRENE- PAR",
+    "category": "esteril",
+    "price": 3.590,
+    "subtitle": "Cod. 07061-al-07064. Según talle. Precio IVA incluido. PM 1015-26",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: Blancos. Largo: 285/290 mm. Libre de Látex. Sin Polvo."
+  },
+  {
+    "id": 68,
+    "image": "./img/nitrilo-lavanda.png",
+    "images": [
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png",
+      "./img/guante-nitrilo.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png"
+    ],
+    "title": "Guantes Manoplas de POLIETILENO Descartables (1x100un)",
+    "category": "pe",
+    "price": 773,
+    "subtitle": "Cod. 08150. Precio IVA incluido",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Paquetes de 100 unidades c/u. 100 paquetes por Cajon Master. Marca: MEDIGLOVE. Color: transparentes Gofrados"
+  },
+  {
+    "id": 69,
+    "image": "./img/nitrilo-celeste.png",
+    "images": [
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/guante-nitrilo.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/nitrilo-celeste.png",
+      "./img/nitrilo-blanco.png"
+    ],
+    "title": "Cubremangas de Polietileno descartables color Azul (1x100un)",
+    "category": "pe",
+    "price": 6.406,
+    "subtitle": "Cod. 08154. Precio IVA incluido ",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Paquetes de 100 unidades c/u. (10 cubremangas por rollo). 20 paquetes de 100 unidades por Cajon Master. Marca: MEDIGLOVE. Color: Azul"
+  },
+  {
+    "id": 49,
+    "image": "./img/nitrilo-blanco.png",
+    "images": [
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/guante-nitrilo.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png"
+    ],
+    "title": "Guante Domestico Afelpado amarillo (x 1 par)",
+    "category": "domestico",
+    "price": 1.325,
+    "subtitle": "Cod. 08804-7. Disponibles en otros colores, desarrollo de marca propias. Certificado Directiva 89/686 /EDC. Precio IVA incluido por par.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Colores: Amarillo. Longitud: 300mm ~ 310mm (Aproximado 12 pulgadas). Grosor: 0.36 mm (mid-palm). Caracteristicas: Latex natural, Flocklinados para facil colocacion, Punio enrollado, Clorinados o no clorinados, Area de palma y dedos texturada, Excelente agarre. Aplicaciones: Limpieza general, Lavado de vajilla, Jardineria, Cuidado de mascotas. Standards: CE, ISO 9001:2008"
+  },
+    {
+    "id": 4,
+    "image": "./img/nitrilo-blanco.png",
+    "images": [
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/guante-nitrilo.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png"
+    ],
+    "title": "Guantes De Látex natural blancos Descartables - (1x100 Un)",
+    "category": "natural-latex",
+    "price": 7.157,
+    "subtitle": "Cod. 08026-al-08030. Según talle. Precio IVA incluido. PM-1015-13 / 1015-20 / 1015-19",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Cajas de 100 unidades c/u. 10 Cajas por Cajon Master. Marca: MEDIGLOVE. Color: Blancos. Largo: 240mm. Látex. Ligeramente empolvado"
+  },
+   {
+    "id": 26,
+    "image": "./img/nitrilo-blanco.png",
+    "images": [
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png",
+      "./img/nitrilo-celeste.png",
+      "./img/guante-esteril.png",
+      "./img/guante-domestico.png",
+      "./img/guante-nitrilo.png",
+      "./img/nitrilo-blanco.png",
+      "./img/nitrilo-lavanda.png"
+    ],
+    "title": "Guantes Látex Caña Extra Largo Sin Polvo- (1x100u)",
+    "category": "natural-latex",
+    "price": 33.280,
+    "subtitle": "Cod. 08021-25. Segun talle. Precio IVA incluido. PM 1015-13",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Amarillo. Largo: 300 mm. Calidad superior grip excelente de mayor grosor al standar caña extra larga excelentes. Sin polvo. Latex natural doble clorinados"
   }
 ]

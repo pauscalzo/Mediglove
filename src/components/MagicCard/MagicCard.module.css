@@ -1,0 +1,100 @@
+/* MAGIC CARD STYLES */
+
+.magicCard {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  border: 1px solid rgba(234, 247, 247, 0.18);
+  background: rgba(6, 20, 20, 0.18);
+
+  --glow-x: 50%;
+  --glow-y: 50%;
+  --glow-intensity: 0;
+  --glow-radius: 180px;
+  --glow-color: 126, 194, 192;
+
+  box-shadow:
+    0 0 0 1px rgba(234, 247, 247, 0.05) inset,
+    0 24px 70px rgba(0, 0, 0, 0.45);
+
+  transition: transform 160ms ease, box-shadow 200ms ease;
+}
+
+.magicCard:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 0 1px rgba(234, 247, 247, 0.08) inset,
+    0 28px 90px rgba(0, 0, 0, 0.55);
+}
+
+/* spotlight suave dentro de la card */
+.spotlightOn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 1;
+  z-index: 0;
+
+  background: radial-gradient(
+    var(--glow-radius) circle at var(--glow-x) var(--glow-y),
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.22)) 0%,
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.12)) 18%,
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.06)) 30%,
+    transparent 62%
+  );
+}
+
+/* border glow */
+.borderGlow::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 7px;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+
+  background: radial-gradient(
+    var(--glow-radius) circle at var(--glow-x) var(--glow-y),
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.55)) 0%,
+    rgba(var(--glow-color), calc(var(--glow-intensity) * 0.25)) 30%,
+    transparent 62%
+  );
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+/* ---------- PARTICLES + RIPPLE ---------- */
+
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(var(--particle-color), 1);
+  box-shadow: 0 0 10px rgba(var(--particle-color), 0.55);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 999px;
+  pointer-events: none;
+  z-index: 6;
+
+  background: radial-gradient(
+    circle,
+    rgba(var(--ripple-color), 0.35) 0%,
+    rgba(var(--ripple-color), 0.18) 28%,
+    transparent 70%
+  );
+}
