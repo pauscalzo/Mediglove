@@ -118,7 +118,7 @@ function NavBar() {
                     <Nav.Link className={`${styles.link} ${isActive('/quienes-somos') ? styles.active : ''}`} href="/quienes-somos" as={Link} to="/quienes-somos" style={{ whiteSpace: 'nowrap' }}>Quienes Somos</Nav.Link>
                   </ClickSpark>
                   <ClickSpark>
-                    <Nav.Link className={styles.link} href="#advice">Asesoramiento</Nav.Link>
+                    <Nav.Link className={`${styles.link} ${isActive('/asesoramiento') ? styles.active : ''}`} href="/asesoramiento" as={Link} to="/asesoramiento">Asesoramiento</Nav.Link>
                   </ClickSpark>
                   <ClickSpark>
                     <Nav.Link className={styles.link} href="#contact">Contacto</Nav.Link>

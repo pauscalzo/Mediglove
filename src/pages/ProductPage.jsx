@@ -72,7 +72,7 @@ export default function ProductPage() {
             ))}
           </div>
           <h1 className={styles.title}>{product.title}</h1>
-          <div className={styles.price}>${product.price?.toLocaleString('es-AR') || '-'}</div>
+          <div className={styles.price}>${typeof product.price === 'number' ? product.price.toFixed(3) : product.price || '-'}</div>
           <div className={styles.priceNote}>Consulte cotización mayorista o instituciones</div>
           <div className={styles.sizesLabel}>Talles</div>
           <div className={styles.sizesRow}>

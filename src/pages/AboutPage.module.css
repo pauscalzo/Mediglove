@@ -2,24 +2,24 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 32px 32px 0 32px;
+  padding: 32px 0 0 0;
   box-sizing: border-box;
 }
 
 @media (max-width: 900px) {
   .pageContainer {
-    padding: 32px 20px 0 20px;
+    padding: 32px 0 0 0;
   }
 }
 
 @media (max-width: 700px) {
   .pageContainer {
-    padding: 24px 16px 0 16px;
+    padding: 24px 0 0 0;
   }
 }
 
 @media (max-width: 500px) {
   .pageContainer {
-    padding: 20px 12px 0 12px;
+    padding: 20px 0 0 0;
   }
 }

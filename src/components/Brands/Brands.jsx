@@ -4,9 +4,12 @@ import { getImageUrl } from '../../utils/imageHelper';
 import { useState, useEffect } from 'react';
 
 const brandLogos = [
-  { src: getImageUrl('./img/brand-01.png'), alt: 'FDA', href: '#' },
-  { src: getImageUrl('./img/brand-02.png'), alt: 'AQL 1.5 GMP', href: '#' },
-  { src: getImageUrl('./img/brand-03.png'), alt: 'ANMAT', href: '#' },
+  { src: getImageUrl('./img/fda-w.png'), alt: 'FDA', href: '#' },
+  { src: getImageUrl('./img/iso-w.png'), alt: 'ISO', href: '#' },
+  { src: getImageUrl('./img/ce-w.png'), alt: 'CE', href: '#' },
+  { src: getImageUrl('./img/aql-w.png'), alt: 'AQL', href: '#' },
+  { src: getImageUrl('./img/gmp-w.png'), alt: 'GMP', href: '#' },
+  { src: getImageUrl('./img/anmat-w.png'), alt: 'ANMAT', href: '#' },
 ];
 
 const MOBILE_BREAKPOINT = 992;

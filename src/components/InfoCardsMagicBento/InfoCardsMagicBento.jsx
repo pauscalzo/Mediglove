@@ -1,4 +1,5 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import MagicCard from "../MagicCard/MagicCard";
 import styles from "./InfoCardsMagicBento.module.css";
 
@@ -9,8 +10,14 @@ export default function InfoCardsMagicBento({
   items = null, // Array custom de tarjetas o null para usar default
   visibleItems = null, // Array de índices para mostrar, o null para mostrar todas
   selectedOnClick = null, // Callback cuando se clickéa una tarjeta en layout vertical
+  initialSelectedCard = 0, // Índice de la tarjeta a abrir inicialmente
 }) {
-  const [selectedCard, setSelectedCard] = useState(0);
+  const navigate = useNavigate();
+  const [selectedCard, setSelectedCard] = useState(initialSelectedCard);
+
+  useEffect(() => {
+    setSelectedCard(initialSelectedCard);
+  }, [initialSelectedCard]);
 
   const defaultCards = useMemo(
     () => [
@@ -62,7 +69,11 @@ export default function InfoCardsMagicBento({
               disableAnimations={disableAnimations}
               className={styles.card}
             >
-              <div className={styles.cardInner}>
+              <button 
+                className={styles.cardInner}
+                onClick={() => navigate(`/asesoramiento?openCard=${idx}`)}
+                style={{ border: 'none', background: 'none', cursor: 'pointer', width: '100%' }}
+              >
                 <div className={styles.textBlock}>
                   <h3 className={styles.title}>{c.title}</h3>
                   <p className={styles.desc}>{c.desc}</p>
@@ -72,7 +83,7 @@ export default function InfoCardsMagicBento({
                   <span className={styles.more}>Ver más</span>
                   <span className={styles.arrow} aria-hidden="true" />
                 </div>
-              </div>
+              </button>
             </MagicCard>
           ))}
         </div>
@@ -101,9 +112,12 @@ export default function InfoCardsMagicBento({
                   }}
                 >
                   <div className={styles.cardInner}>
-                    <h3 className={styles.cardTitle}>{c.title}</h3>
-                    <p className={styles.cardText}>{c.desc}</p>
-                    <span className={styles.arrow}>→</span>
+                    <h3 className={styles.title}>{c.title}</h3>
+                    <p className={styles.desc}>{c.desc}</p>
+                    <div className={styles.footer}>
+                      <span className={styles.more}>Ver más</span>
+                      <span className={styles.arrow} aria-hidden="true" />
+                    </div>
                   </div>
                 </button>
               </MagicCard>
