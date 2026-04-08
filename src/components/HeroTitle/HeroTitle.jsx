@@ -20,7 +20,6 @@ function HeroTitle() {
         >
           <RotatingText
             texts={[
-              "y al mejor precio",
               "con la mejor calidad",
               "con calidad de atencion",
               "y entrega inmediata",

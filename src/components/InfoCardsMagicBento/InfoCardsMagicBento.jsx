@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import MagicCard from "../MagicCard/MagicCard";
 import styles from "./InfoCardsMagicBento.module.css";
@@ -11,9 +11,11 @@ export default function InfoCardsMagicBento({
   visibleItems = null, // Array de índices para mostrar, o null para mostrar todas
   selectedOnClick = null, // Callback cuando se clickéa una tarjeta en layout vertical
   initialSelectedCard = 0, // Índice de la tarjeta a abrir inicialmente
+  scrollToRef = null, // Referencia al elemento hacia el que hacer scroll
 }) {
   const navigate = useNavigate();
   const [selectedCard, setSelectedCard] = useState(initialSelectedCard);
+  const contentAreaRef = useRef(null);
 
   useEffect(() => {
     setSelectedCard(initialSelectedCard);
@@ -108,6 +110,24 @@ export default function InfoCardsMagicBento({
                   className={styles.cardButton}
                   onClick={() => {
                     setSelectedCard(idx);
+                    setTimeout(() => {
+                      const isMobile = window.innerWidth < 768;
+                      const refToUse = isMobile ? contentAreaRef : scrollToRef;
+                      
+                      if (refToUse && refToUse.current) {
+                        if (isMobile) {
+                          // Mobile: scroll al contenido con padding superior
+                          const elementTop = refToUse.current.getBoundingClientRect().top + window.scrollY;
+                          window.scrollTo({
+                            top: elementTop - 80, // padding superior extra
+                            behavior: 'smooth'
+                          });
+                        } else {
+                          // Desktop: scroll a Asesoramiento
+                          refToUse.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                      }
+                    }, 0);
                     selectedOnClick?.(idx, c);
                   }}
                 >
@@ -125,7 +145,7 @@ export default function InfoCardsMagicBento({
           </div>
 
           {displayCards[selectedCard] && (
-            <div className={styles.contentArea}>
+            <div className={styles.contentArea} ref={contentAreaRef}>
               <h2 className={styles.contentTitle}>{displayCards[selectedCard].title}</h2>
               <div className={styles.contentBody}>
                 {displayCards[selectedCard].content || displayCards[selectedCard].desc}

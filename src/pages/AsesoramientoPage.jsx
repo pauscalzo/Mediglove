@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import InfoCardsMagicBento from '../components/InfoCardsMagicBento/InfoCardsMagicBento';
 import styles from './AsesoramientoPage.module.css';
@@ -240,10 +240,11 @@ const asesorContent = [
 export default function AsesoramientoPage() {
   const [searchParams] = useSearchParams();
   const openCard = parseInt(searchParams.get('openCard') || '0', 10);
+  const headerRef = useRef(null);
 
   return (
     <div className={styles.pageContainer}>
-      <div className={styles.header}>
+      <div className={styles.header} ref={headerRef}>
         <h1 className={styles.title}>Asesoramiento</h1>
         <p className={styles.description}>
           Tras 5 décadas de experiencia, búsqueda, desarrollo de nuevos productos e introducción al mercado de los mismos, adquirimos amplios conocimientos técnicos para atender los requerimientos de nuestros clientes o usuarios.
@@ -254,6 +255,7 @@ export default function AsesoramientoPage() {
         layout="vertical"
         items={asesorContent}
         initialSelectedCard={openCard}
+        scrollToRef={headerRef}
       />
     </div>
   );

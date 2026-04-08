@@ -194,7 +194,6 @@
 
 .verticalCard.active {
   border-color: rgba(200, 156, 178, 0.8) !important;
-  background: rgba(200, 156, 178, 0.15) !important;
 }
 
 .contentArea {

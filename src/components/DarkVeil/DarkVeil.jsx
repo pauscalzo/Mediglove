@@ -60,24 +60,28 @@ vec4 cppn_fn(vec2 coordinate,float in0,float in1,float in2){
 
 // --- MODIFICACIÓN: TILING DEL PATRÓN ---
 void mainImage(out vec4 fragColor,in vec2 fragCoord){
-  // Repetir solo verticalmente (tileY), horizontalmente cubrir todo
-  float tileY = 600.0;
-  if (tileY < 1.0) tileY = 1.0;
-  float normX = (fragCoord.x / max(uResolution.x, 1.0)) * 2.0 - 1.0; // horizontal: cover
-  float normY = (fragCoord.y / tileY) * 2.0 - 1.0; // vertical: no repeat
+  // Color de fondo CIAN puro
+  vec4 bgColor = vec4(0.0, 1.0, 1.0, 1.0);
+  
+  // Aplicar el efecto en todo el canvas
+  float normX = (fragCoord.x / max(uResolution.x, 1.0)) * 2.0 - 1.0;
+  float normY = (fragCoord.y / 600.0) * 2.0 - 1.0;
   vec2 uv = vec2(normX, -normY);
   uv += uWarp * vec2(sin(uv.y * 6.283 + uTime * 0.5), cos(uv.x * 6.283 + uTime * 0.5)) * 0.05;
-  // Solo mostrar la animación en la franja superior
-  if (fragCoord.y < tileY) {
-    fragColor = cppn_fn(uv, 0.1 * sin(0.3 * uTime), 0.1 * sin(0.69 * uTime), 0.1 * sin(0.44 * uTime));
-  } else {
-    fragColor = vec4(0.0, 0.0, 0.0, 0.0);
-  }
+  
+  // Obtener el color del efecto
+  vec4 effectColor = cppn_fn(uv, 0.1 * sin(0.3 * uTime), 0.1 * sin(0.69 * uTime), 0.1 * sin(0.44 * uTime));
+  
+  // Blend: mezclar el efecto con el color de fondo
+  // Si el efecto es muy oscuro, mostrar más del fondo
+  float brightness = dot(effectColor.rgb, vec3(0.299, 0.587, 0.114));
+  float blendFactor = mix(0.7, 0.3, brightness);
+  fragColor = mix(bgColor, effectColor, blendFactor);
 }
 
 void main(){
     vec4 col;mainImage(col,gl_FragCoord.xy);
-    col.rgb=hueShiftRGB(col.rgb,uHueShift);
+    // col.rgb=hueShiftRGB(col.rgb,uHueShift); // Deshabilitado para usar colores puros
     float scanline_val=sin(gl_FragCoord.y*uScanFreq)*0.5+0.5;
     col.rgb*=1.-(scanline_val*scanline_val)*uScan;
     col.rgb+=(rand(gl_FragCoord.xy+uTime)-0.5)*uNoise;

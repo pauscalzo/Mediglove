@@ -89,7 +89,15 @@ export default function ProductPage() {
           <div className={styles.descLabel}>Descripción:</div>
           <div className={styles.descText}>{product.description}</div>
           <div className={styles.actionsRow}>
-            <button className={styles.buyBtn}>Comprar ahora</button>
+            <a
+              href={product.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.buyBtn}
+              style={{ textDecoration: 'none', display: 'inline-block' }}
+            >
+              Comprar ahora
+            </a>
             <button className={styles.consultBtn}>Consultar</button>
           </div>
         </div>

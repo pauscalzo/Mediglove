@@ -1,13 +1,13 @@
 [
   {
     "id": 2,
-    "image": "./img/nitrilo/02/01.jpg",
+    "image": "./img/nitrilo/02/01.png",
     "images": [
-      "./img/nitrilo/02/01.jpg",
+      "./img/nitrilo/02/01.png",
       "./img/nitrilo/02/02.jpg",
       "./img/nitrilo/02/03.jpg",
       "./img/nitrilo/02/04.jpg",
-      "./img/nitrilo/02/05.jpg",
+      "./img/nitrilo/02/05.png",
       "./img/nitrilo/02/06.jpg",
       "./img/nitrilo/02/07.jpg",
       "./img/nitrilo/02/08.jpg"
@@ -17,17 +17,18 @@
     "price": 7.555,
     "subtitle": "Cod. 08011-al-08015. Según talle. Precio IVA incluido.PM-1015-25",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Cajas de 100 unidades c/u. 10 Cajas por Cajon Master. Marca: MEDIGLOVE. Color: Lavanda = Lila. Largo: 240mm. Sin polvo. Sin Latex"
+    "description": "Cajas de 100 unidades c/u. 10 Cajas por Cajon Master. Marca: MEDIGLOVE. Color: Lavanda = Lila. Largo: 240mm. Sin polvo. Sin Latex",
+    "url": "#"
   },
   {
     "id": 16,
-    "image": "./img/nitrilo/16/01.jpg",
+    "image": "./img/nitrilo/16/01.png",
     "images": [
-      "./img/nitrilo/16/01.jpg",
+      "./img/nitrilo/16/01.png",
       "./img/nitrilo/16/02.jpg",
       "./img/nitrilo/16/03.jpg",
       "./img/nitrilo/16/04.jpg",
-      "./img/nitrilo/16/05.jpg",
+      "./img/nitrilo/16/05.png",
       "./img/nitrilo/16/06.jpg",
       "./img/nitrilo/16/07.jpg",
       "./img/nitrilo/16/08.jpg"
@@ -37,17 +38,18 @@
     "price": 7.555,
     "subtitle": "Cod. 08069-72. Segun talle. Precio IVA incluido. PM 1015-25",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Azul cyan. Largo: 240mm. Calidad superiorSin polvo. Nitrilo libres de latex"
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Azul cyan. Largo: 240mm. Calidad superiorSin polvo. Nitrilo libres de latex",
+    "url": "#"
   },
   {
     "id": 27,
-    "image": "./img/nitrilo/27/01.jpg",
+    "image": "./img/nitrilo/27/01.png",
     "images": [
-      "./img/nitrilo/27/01.jpg",
+      "./img/nitrilo/27/01.png",
       "./img/nitrilo/27/02.jpg",
       "./img/nitrilo/27/03.jpg",
       "./img/nitrilo/27/04.jpg",
-      "./img/nitrilo/27/05.jpg",
+      "./img/nitrilo/27/05.png",
       "./img/nitrilo/27/06.jpg",
       "./img/nitrilo/27/07.jpg",
       "./img/nitrilo/27/08.jpg"
@@ -57,17 +59,18 @@
     "price": 29.120,
     "subtitle": "Cod. 08007-11. Segun talle. Precio IVA incluido. PM 1015-14",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Blanco. Largo: 300mm. Calidad superior grip excelente de mayor grosor al standar. Sin polvo. Libres de latex nitrilo alta calidad"
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Blanco. Largo: 300mm. Calidad superior grip excelente de mayor grosor al standar. Sin polvo. Libres de latex nitrilo alta calidad",
+    "url": "#"
   },
   {
     "id": 54,
-    "image": "./img/nitrilo/54/01.jpg",
+    "image": "./img/nitrilo/54/01.png",
     "images": [
-      "./img/nitrilo/54/01.jpg",
+      "./img/nitrilo/54/01.png",
       "./img/nitrilo/54/02.jpg",
       "./img/nitrilo/54/03.jpg",
       "./img/nitrilo/54/04.jpg",
-      "./img/nitrilo/54/05.jpg",
+      "./img/nitrilo/54/05.png",
       "./img/nitrilo/54/06.jpg",
       "./img/nitrilo/54/07.jpg",
       "./img/nitrilo/54/08.jpg"
@@ -77,17 +80,18 @@
     "price": 10.360,
     "subtitle": "Cod. 08017-al-08020. Según talle.. Precio IVA incluido. PM- 1015-25",
     "sizes": ["S", "M", "L", "XL"],
-    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Negro. Largo: 240 mm. Sin polvo. Sin Latex"
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Negro. Largo: 240 mm. Sin polvo. Sin Latex",
+    "url": "#"
   },
   {
     "id": 58,
-    "image": "./img/nitrilo/58/01.jpg",
+    "image": "./img/nitrilo/58/01.png",
     "images": [
-      "./img/nitrilo/58/01.jpg",
+      "./img/nitrilo/58/01.png",
       "./img/nitrilo/58/02.jpg",
       "./img/nitrilo/58/03.jpg",
       "./img/nitrilo/58/04.jpg",
-      "./img/nitrilo/58/05.jpg",
+      "./img/nitrilo/58/05.png",
       "./img/nitrilo/58/06.jpg",
       "./img/nitrilo/58/07.jpg",
       "./img/nitrilo/58/08.jpg"
@@ -97,29 +101,32 @@
     "price": 27.040,
     "subtitle": "Cod. 08108-al-08111. Según talle. Precio IVA incluido. PM1015-25",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Blue. Largo: 300mm. Sin polvo. Sin Latex"
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Blue. Largo: 300mm. Sin polvo. Sin Latex",
+    "url": "#"
   },
   {
     "id": 59,
-    "image": "./img/nitrilo/59/01.jpg",
+    "image": "./img/nitrilo/59/01.png",
     "images": [
-      "./img/nitrilo/59/01.jpg",
+      "./img/nitrilo/59/01.png",
       "./img/nitrilo/59/02.jpg",
       "./img/nitrilo/59/03.jpg",
-      "./img/nitrilo/59/04.jpg"
+      "./img/nitrilo/59/04.jpg",
+      "./img/nitrilo/59/05.png"
     ],
     "title": "Guantes De Nitrilo Black soft. Sin Polvo - (1x100un)",
     "category": "nitrilo",
     "price": 9.013,
     "subtitle": "Cod. 08103-al-08106. Segun talle. Precio IVA incluido. PM1015-25",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Negro (Black soft). Largo: 240mm. Calidad superior. Sin polvo. Nitrilo libres de latex"
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Negro (Black soft). Largo: 240mm. Calidad superior. Sin polvo. Nitrilo libres de latex",
+    "url": "#"
   },
   {
     "id": 60,
-    "image": "./img/nitrilo/60/01.jpg",
+    "image": "./img/nitrilo/60/01.png",
     "images": [
-      "./img/nitrilo/60/01.jpg",
+      "./img/nitrilo/60/01.png",
       "./img/nitrilo/60/02.jpg",
       "./img/nitrilo/60/03.jpg",
       "./img/nitrilo/60/04.jpg",
@@ -132,17 +139,18 @@
     "price": 9.013,
     "subtitle": "Cod. 08092-al-08095. Segun talle. Precio IVA incluido. PM 1015-25",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Rosa bebé. Largo: 240mm. Calidad superior. Sin polvo. Nitrilo libres de latex"
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Rosa bebé. Largo: 240mm. Calidad superior. Sin polvo. Nitrilo libres de latex",
+    "url": "#"
   },
   {
     "id": 61,
-    "image": "./img/nitrilo/61/01.jpg",
+    "image": "./img/nitrilo/61/01.png",
     "images": [
-      "./img/nitrilo/61/01.jpg",
+      "./img/nitrilo/61/01.png",
       "./img/nitrilo/61/02.jpg",
       "./img/nitrilo/61/03.jpg",
       "./img/nitrilo/61/04.jpg",
-      "./img/nitrilo/61/05.jpg",
+      "./img/nitrilo/61/05.png",
       "./img/nitrilo/61/06.jpg",
       "./img/nitrilo/61/07.jpg"
     ],
@@ -151,7 +159,8 @@
     "price": 8.394,
     "subtitle": "Cod. 08011-al-08015. Según talle. Precio IVA incluido. PM-1015-14 / 1015-20",
     "sizes": ["S", "M", "L", "XL"],
-    "description": "Cajas de 50 unidades c/u. Marca: MEDIGLOVE. Color: Orange. Largo: 240mm. Sin polvo. Sin Latex"
+    "description": "Cajas de 50 unidades c/u. Marca: MEDIGLOVE. Color: Orange. Largo: 240mm. Sin polvo. Sin Latex",
+    "url": "#"
   },
   {
     "id": 70,
@@ -171,7 +180,8 @@
     "price": 8.394,
     "subtitle": "Cod. 08118-al-08120. Según talle. Precio IVA incluido. PM-1015-25",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Cajas de 50 unidades c/u. Marca: MEDIGLOVE. Color: BLACK. Largo: 240mm. Sin polvo. Sin Latex"
+    "description": "Cajas de 50 unidades c/u. Marca: MEDIGLOVE. Color: BLACK. Largo: 240mm. Sin polvo. Sin Latex",
+    "url": "#"
   },
   {
     "id": 6,
@@ -179,10 +189,10 @@
     "images": [
       "./img/esteril/06/01.jpg",
       "./img/esteril/06/02.jpg",
-      "./img/esteril/06/03.jpg",
+      "./img/esteril/06/03.png",
       "./img/esteril/06/04.jpg",
       "./img/esteril/06/05.jpg",
-      "./img/esteril/06/06.jpg",
+      "./img/esteril/06/06.png",
       "./img/esteril/06/07.jpg",
       "./img/esteril/06/08.jpg"
     ],
@@ -191,7 +201,8 @@
     "price": 1.381,
     "subtitle": "Cod. 07009-al-07013. Según talle. Precio IVA incluido. PM-1015-24",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "50 pares por cajita dispenser. 8 cajas por master = 400 pares el cajón. Marca: Mediglove. Color: Blanco. Largo: 300 mm. Nitrilo, sin polvo. Libres de latex estériles para uso quirurgico"
+    "description": "50 pares por cajita dispenser. 8 cajas por master = 400 pares el cajón. Marca: Mediglove. Color: Blanco. Largo: 300 mm. Nitrilo, sin polvo. Libres de latex estériles para uso quirurgico",
+    "url": "#"
   },
   {
     "id": 11,
@@ -199,10 +210,10 @@
     "images": [
       "./img/esteril/11/01.jpg",
       "./img/esteril/11/02.jpg",
-      "./img/esteril/11/03.jpg",
+      "./img/esteril/11/03.png",
       "./img/esteril/11/04.jpg",
       "./img/esteril/11/05.jpg",
-      "./img/esteril/11/06.jpg",
+      "./img/esteril/11/06.png",
       "./img/esteril/11/07.jpg",
       "./img/esteril/11/08.jpg"
     ],
@@ -211,7 +222,8 @@
     "price": 1.381,
     "subtitle": "Cod. 07001-al-07007. Según talle. Precio IVA incluido. PM 1015-23",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "50 pares por caja dispenser. 8 cajas por master = 400 pares el cajón. Marca: Mediglove. Color: Amarillo crema. Largo: 300 mm. Látex. Sin Polvo doble clorinados."
+    "description": "50 pares por caja dispenser. 8 cajas por master = 400 pares el cajón. Marca: Mediglove. Color: Amarillo crema. Largo: 300 mm. Látex. Sin Polvo doble clorinados.",
+    "url": "#"
   },
   {
     "id": 62,
@@ -231,7 +243,8 @@
     "price": 479,
     "subtitle": "Cod. 07040-al-07044. Según talle. Precio IVA incluido. PM 1015-26",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: Blancos. Largo: 285/290 mm. Látex. Sin Polvo Polymer coated."
+    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: Blancos. Largo: 285/290 mm. Látex. Sin Polvo Polymer coated.",
+    "url": "#"
   },
   {
     "id": 63,
@@ -251,7 +264,8 @@
     "price": 1.381,
     "subtitle": "Cod. 07056-al-07059. Según talle. Precio IVA incluido. PM 1015-26",
     "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
-    "description": "50 pares por caja dispenser. Marca: Mediglove. Color: VERDE. Largo: 280 mm. Látex. Sin Polvo Polymer coated."
+    "description": "50 pares por caja dispenser. Marca: Mediglove. Color: VERDE. Largo: 280 mm. Látex. Sin Polvo Polymer coated.",
+    "url": "#"
   },
   {
     "id": 64,
@@ -269,7 +283,8 @@
     "price": 1.712,
     "subtitle": "Cod. 07051-al-07054. Según talle. Precio IVA incluido. PM-1015-26",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: MARRON. Largo: 285/290mm. Latex, sin polvo polymer coated. Especificos para uso ortopedico estériles para uso quirurgico"
+    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: MARRON. Largo: 285/290mm. Latex, sin polvo polymer coated. Especificos para uso ortopedico estériles para uso quirurgico",
+    "url": "#"
   },
   {
     "id": 65,
@@ -286,7 +301,8 @@
     "price": 1.519,
     "subtitle": "Cod. 07046-al-07049. Según talle. Precio IVA incluido. PM 1015-26",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: Blancos. Largo: 285/290 mm. Látex. Sin Polvo Polymer coated."
+    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: Blancos. Largo: 285/290 mm. Látex. Sin Polvo Polymer coated.",
+    "url": "#"
   },
   {
     "id": 67,
@@ -304,7 +320,8 @@
     "price": 3.590,
     "subtitle": "Cod. 07061-al-07064. Según talle. Precio IVA incluido. PM 1015-26",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: Blancos. Largo: 285/290 mm. Libre de Látex. Sin Polvo."
+    "description": "50 pares por cajita dispenser. 4 cajas por master = 200 pares el cajón. Marca: Mediglove. Color: Blancos. Largo: 285/290 mm. Libre de Látex. Sin Polvo.",
+    "url": "#"
   },
   {
     "id": 49,
@@ -320,7 +337,8 @@
     "price": 1.325,
     "subtitle": "Cod. 08804-7. Disponibles en otros colores, desarrollo de marca propias. Certificado Directiva 89/686 /EDC. Precio IVA incluido por par.",
     "sizes": ["S", "M", "L", "XL", "XXL"],
-    "description": "Colores: Amarillo. Longitud: 300mm ~ 310mm (Aproximado 12 pulgadas). Grosor: 0.36 mm (mid-palm). Caracteristicas: Latex natural, Flocklinados para facil colocacion, Punio enrollado, Clorinados o no clorinados, Area de palma y dedos texturada, Excelente agarre. Aplicaciones: Limpieza general, Lavado de vajilla, Jardineria, Cuidado de mascotas. Standards: CE, ISO 9001:2008"
+    "description": "Colores: Amarillo. Longitud: 300mm ~ 310mm (Aproximado 12 pulgadas). Grosor: 0.36 mm (mid-palm). Caracteristicas: Latex natural, Flocklinados para facil colocacion, Punio enrollado, Clorinados o no clorinados, Area de palma y dedos texturada, Excelente agarre. Aplicaciones: Limpieza general, Lavado de vajilla, Jardineria, Cuidado de mascotas. Standards: CE, ISO 9001:2008",
+    "url": "#"
   },
   {
     "id": 68,
@@ -338,7 +356,8 @@
     "price": 773,
     "subtitle": "Cod. 08150. Precio IVA incluido",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Paquetes de 100 unidades c/u. 100 paquetes por Cajon Master. Marca: MEDIGLOVE. Color: transparentes Gofrados"
+    "description": "Paquetes de 100 unidades c/u. 100 paquetes por Cajon Master. Marca: MEDIGLOVE. Color: transparentes Gofrados",
+    "url": "#"
   },
   {
     "id": 69,
@@ -354,17 +373,18 @@
     "price": 6.406,
     "subtitle": "Cod. 08154. Precio IVA incluido ",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Paquetes de 100 unidades c/u. (10 cubremangas por rollo). 20 paquetes de 100 unidades por Cajon Master. Marca: MEDIGLOVE. Color: Azul"
+    "description": "Paquetes de 100 unidades c/u. (10 cubremangas por rollo). 20 paquetes de 100 unidades por Cajon Master. Marca: MEDIGLOVE. Color: Azul",
+    "url": "#"
   },
   {
     "id": 4,
-    "image": "./img/natural-latex/04/01.jpg",
+    "image": "./img/natural-latex/04/01.png",
     "images": [
-      "./img/natural-latex/04/01.jpg",
+      "./img/natural-latex/04/01.png",
       "./img/natural-latex/04/02.jpg",
       "./img/natural-latex/04/03.jpg",
       "./img/natural-latex/04/04.jpg",
-      "./img/natural-latex/04/05.jpg",
+      "./img/natural-latex/04/05.png",
       "./img/natural-latex/04/06.jpg",
       "./img/natural-latex/04/07.jpg",
       "./img/natural-latex/04/08.jpg"
@@ -374,16 +394,17 @@
     "price": 7.157,
     "subtitle": "Cod. 08026-al-08030. Según talle. Precio IVA incluido. PM-1015-13 / 1015-20 / 1015-19",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Cajas de 100 unidades c/u. 10 Cajas por Cajon Master. Marca: MEDIGLOVE. Color: Blancos. Largo: 240mm. Látex. Ligeramente empolvado"
+    "description": "Cajas de 100 unidades c/u. 10 Cajas por Cajon Master. Marca: MEDIGLOVE. Color: Blancos. Largo: 240mm. Látex. Ligeramente empolvado",
+    "url": "#"
   },
   {
     "id": 26,
-    "image": "./img/natural-latex/26/01.jpg",
+    "image": "./img/natural-latex/26/01.png",
     "images": [
-      "./img/natural-latex/26/01.jpg",
+      "./img/natural-latex/26/01.png",
       "./img/natural-latex/26/02.jpg",
       "./img/natural-latex/26/03.jpg",
-      "./img/natural-latex/26/04.jpg",
+      "./img/natural-latex/26/04.png",
       "./img/natural-latex/26/05.jpg",
       "./img/natural-latex/26/06.jpg",
       "./img/natural-latex/26/07.jpg",
@@ -394,6 +415,7 @@
     "price": 33.280,
     "subtitle": "Cod. 08021-25. Segun talle. Precio IVA incluido. PM 1015-13",
     "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Amarillo. Largo: 300 mm. Calidad superior grip excelente de mayor grosor al standar caña extra larga excelentes. Sin polvo. Latex natural doble clorinados"
+    "description": "Cajas de 100 unidades c/u. Marca: MEDIGLOVE. Color: Amarillo. Largo: 300 mm. Calidad superior grip excelente de mayor grosor al standar caña extra larga excelentes. Sin polvo. Latex natural doble clorinados",
+    "url": "#"
   }
 ]
