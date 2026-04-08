@@ -200,6 +200,9 @@
   min-height: 400px;
   margin-bottom: 32px;
   overflow: hidden;
+  padding: 5%;
+  background-color: #043139;
+  border-radius: 25px;
 }
 
 .contentTitle {
