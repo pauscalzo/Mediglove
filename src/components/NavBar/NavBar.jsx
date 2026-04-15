@@ -63,7 +63,7 @@ function NavBar() {
     },
     { label: 'Quienes Somos', link: '/quienes-somos' },
     { label: 'Asesoramiento', link: '/asesoramiento' },
-    { label: 'Contacto', link: '#contact' }
+    { label: 'Contacto', link: '/contacto' }
   ];
 
   return (
@@ -121,7 +121,7 @@ function NavBar() {
                     <Nav.Link className={`${styles.link} ${isActive('/asesoramiento') ? styles.active : ''}`} href="/asesoramiento" as={Link} to="/asesoramiento">Asesoramiento</Nav.Link>
                   </ClickSpark>
                   <ClickSpark>
-                    <Nav.Link className={styles.link} href="#contact">Contacto</Nav.Link>
+                    <Nav.Link className={`${styles.link} ${isActive('/contacto') ? styles.active : ''}`} href="/contacto" as={Link} to="/contacto">Contacto</Nav.Link>
                   </ClickSpark>
                 </Nav>
               </div>

@@ -10,6 +10,7 @@ import InfoCardsMagicBento from "./components/InfoCardsMagicBento/InfoCardsMagic
 import DownloadCatalog from './components/DownloadCatalog/DownloadCatalog';
 import Footer from './components/Footer/Footer';
 import DarkVeil from './components/DarkVeil/DarkVeil';
+import WhatsAppFloat from './components/WhatsAppFloat/WhatsAppFloat';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import HomePage from './pages/HomePage';
@@ -17,6 +18,7 @@ import CategoryPage from './pages/CategoryPage';
 import ProductPage from './pages/ProductPage';
 import AboutPage from './pages/AboutPage';
 import AsesoramientoPage from './pages/AsesoramientoPage';
+import ContactPage from './pages/ContactPage';
 
 const getBasename = () => {
   // Only use basename in production
@@ -53,11 +55,13 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/quienes-somos" element={<AboutPage />} />
             <Route path="/asesoramiento" element={<AsesoramientoPage />} />
+            <Route path="/contacto" element={<ContactPage />} />
             <Route path="/categoria/:category" element={<CategoryPage />} />
             <Route path="/producto/:id" element={<ProductPage />} />
           </Routes>
         </main>
         <Footer />
+        <WhatsAppFloat />
         <DarkVeil
           hueShift={46}
           noiseIntensity={0}

@@ -28,7 +28,7 @@ function Brands() {
   return (
     <section className={styles.brands} aria-label="Certificaciones">
       <div style={{ 
-        height: isMobile ? '50px' : '60px', 
+        height: '50px', 
         position: 'relative', 
         overflow: 'hidden', 
         background: '#0b1a1a', 
@@ -38,11 +38,11 @@ function Brands() {
       }}>
         <LogoLoop
           logos={brandLogos}
-          speed={isMobile ? 0 : 1}
+          speed={1}
           direction="left"
           logoHeight={isMobile ? 24 : 32}
           gap={isMobile ? 30 : 60}
-          repeatCount={isMobile ? 1 : 6}
+          repeatCount={isMobile ? 4 : 6}
           fadeOut={!isMobile}
           scaleOnHover
           ariaLabel="Certificaciones"

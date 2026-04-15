@@ -1,5 +1,6 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import AccordionSection from '../components/AccordionSection/AccordionSection';
 import InfoCardsMagicBento from '../components/InfoCardsMagicBento/InfoCardsMagicBento';
 import styles from './AsesoramientoPage.module.css';
 import { FaDownload } from 'react-icons/fa';
@@ -239,8 +240,17 @@ const asesorContent = [
 
 export default function AsesoramientoPage() {
   const [searchParams] = useSearchParams();
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const openCard = parseInt(searchParams.get('openCard') || '0', 10);
   const headerRef = useRef(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <div className={styles.pageContainer}>
@@ -250,13 +260,19 @@ export default function AsesoramientoPage() {
           Tras 5 décadas de experiencia, búsqueda, desarrollo de nuevos productos e introducción al mercado de los mismos, adquirimos amplios conocimientos técnicos para atender los requerimientos de nuestros clientes o usuarios.
         </p>
       </div>
-      <InfoCardsMagicBento 
-        glowColor="200, 156, 178"
-        layout="vertical"
-        items={asesorContent}
-        initialSelectedCard={openCard}
-        scrollToRef={headerRef}
-      />
+      {isMobile ? (
+        <AccordionSection 
+          items={asesorContent}
+        />
+      ) : (
+        <InfoCardsMagicBento 
+          glowColor="200, 156, 178"
+          layout="vertical"
+          items={asesorContent}
+          initialSelectedCard={openCard}
+          scrollToRef={headerRef}
+        />
+      )}
     </div>
   );
 }

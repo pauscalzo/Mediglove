@@ -1,7 +1,9 @@
 .brands {
   margin-top: 48px;
+  margin-bottom: 48px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .pill {

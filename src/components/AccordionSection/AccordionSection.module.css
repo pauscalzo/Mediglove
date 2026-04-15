@@ -1,0 +1,107 @@
+.accordion {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.accordionItem {
+  margin-bottom: 16px;
+  background: #043139;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordionButton {
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  gap: 20px;
+}
+
+.titleText {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.accordionItem.expanded .chevron {
+  transform: rotate(180deg);
+}
+
+.accordionContent {
+  padding: 0 24px 24px 24px;
+  animation: slideDown 0.3s ease;
+  border-top: 1px solid rgba(200, 156, 178, 0.2);
+}
+
+.accordionContent p {
+  margin-bottom: 16px;
+  color: #fff;
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
+.accordionContent p:last-child {
+  margin-bottom: 0;
+}
+
+.accordionContent p strong {
+  color: #C89CB2;
+}
+
+.accordionContent div {
+  margin-bottom: 16px;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+  }
+  to {
+    opacity: 1;
+    max-height: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .accordion {
+    padding: 20px 5px;
+  }
+
+  .accordionTitle {
+    padding: 20px;
+  }
+
+  .titleText {
+    font-size: 1rem;
+  }
+
+  .accordionContent {
+    padding: 20px 20px 20px 20px;
+  }
+}
