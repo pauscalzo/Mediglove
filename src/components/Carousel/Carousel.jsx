@@ -53,8 +53,8 @@ export default function Carousel({
   const DEFAULT_ITEMS = useMemo(
     () => [
       { id: 1, src: getImageUrl('./img/img-01.png'), alt: "Imagen 1" },
-      { id: 2, src: getImageUrl('./img/img-01.png'), alt: "Imagen 2" },
-      { id: 3, src: getImageUrl('./img/img-01.png'), alt: "Imagen 3" },
+      { id: 2, src: getImageUrl('./img/slider02.png'), alt: "Imagen 2" },
+      { id: 3, src: getImageUrl('./img/slider03.png'), alt: "Imagen 3" },
     ],
     []
   );

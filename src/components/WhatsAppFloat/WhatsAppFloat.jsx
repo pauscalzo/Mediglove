@@ -5,7 +5,7 @@ import styles from './WhatsAppFloat.module.css';
 export default function WhatsAppFloat() {
   const handleWhatsApp = () => {
     // Reemplazar con el número real del cliente cuando tengas
-    const phoneNumber = ''; // Ej: '5491112345678'
+    const phoneNumber = '541131990590';
     const message = 'Hola, estoy interesado en obtener más información sobre Mediglove.';
     
     if (phoneNumber) {

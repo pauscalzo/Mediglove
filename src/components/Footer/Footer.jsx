@@ -49,11 +49,13 @@ export default function Footer() {
               <div className={styles.cardTitle}>Dirección</div>
             </div>
 
-            <div className={styles.lines}>
-              <div>Pedro Mendoza 1883</div>
-              <div>CP:B1686NGC - Hurlingham</div>
-              <div>Buenos Aires - Argentina</div>
-            </div>
+            <a href="https://www.google.com/maps/search/Pedro+Mendoza+1883+Hurlingham+Buenos+Aires" target="_blank" rel="noopener noreferrer" className={styles.addressLink}>
+              <div className={styles.lines}>
+                <div>Pedro Mendoza 1883</div>
+                <div>CP:B1686NGC - Hurlingham</div>
+                <div>Buenos Aires - Argentina</div>
+              </div>
+            </a>
           </SpotlightCard>
 
           {/* Card 3 */}
@@ -64,8 +66,8 @@ export default function Footer() {
             </div>
 
             <div className={styles.lines}>
-              <div>ventas@mediglove.com.ar</div>
-              <div>(5411) 3199-0590</div>
+              <div><a href="mailto:ventas@mediglove.com.ar" className={styles.link}>ventas@mediglove.com.ar</a></div>
+              <div><a href="https://wa.me/541131990590" target="_blank" rel="noopener noreferrer" className={styles.link}>(5411) 3199-0590</a></div>
               <div>De 10 a 15 hs</div>
             </div>
           </SpotlightCard>
@@ -78,7 +80,7 @@ export default function Footer() {
             </div>
 
             <div className={styles.socials}>
-              <a className={styles.socialBtn} href="https://facebook.com/mediglove" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <a className={styles.socialBtn} href="https://www.facebook.com/guantesmediglove.mediglovesrl" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
               <a className={styles.socialBtn} href="https://instagram.com/mediglovearg" target="_blank" rel="noopener noreferrer" aria-label="Instagram">

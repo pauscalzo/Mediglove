@@ -8,7 +8,7 @@
 
 .pill {
   width: min(880px, 100%);
-  background: rgba(4, 20, 21, 0.7);
+  background: #043139;
   border-radius: 999px;
   padding: 18px 32px;
   display: flex;

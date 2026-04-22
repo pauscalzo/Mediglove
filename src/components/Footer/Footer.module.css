@@ -109,6 +109,31 @@
   line-height: 1.55;
 }
 
+.link {
+  color: rgba(234, 247, 247, 0.95);
+  text-decoration: none;
+  transition: color 200ms ease, opacity 200ms ease;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #78BAB9;
+  opacity: 1;
+}
+
+.addressLink {
+  color: rgba(234, 247, 247, 0.95);
+  text-decoration: none;
+  display: block;
+  transition: color 200ms ease;
+  cursor: pointer;
+}
+
+.addressLink:hover,
+.addressLink:hover .lines {
+  color: #78BAB9;
+}
+
 .socials {
   display: flex;
   gap: 14px;

@@ -1,4 +1,5 @@
 import LogoLoop from '../LogoLoop/LogoLoop';
+import BrandsStatic from '../BrandsStatic/BrandsStatic';
 import styles from './Brands.module.css';
 import { getImageUrl } from '../../utils/imageHelper';
 import { useState, useEffect } from 'react';
@@ -27,27 +28,31 @@ function Brands() {
 
   return (
     <section className={styles.brands} aria-label="Certificaciones">
-      <div style={{ 
-        height: '50px', 
-        position: 'relative', 
-        overflow: 'hidden', 
-        background: '#0b1a1a', 
-        borderRadius: '24px', 
-        padding: '8px',
-        width: '100%'
-      }}>
-        <LogoLoop
-          logos={brandLogos}
-          speed={1}
-          direction="left"
-          logoHeight={isMobile ? 24 : 32}
-          gap={isMobile ? 30 : 60}
-          repeatCount={isMobile ? 4 : 6}
-          fadeOut={!isMobile}
-          scaleOnHover
-          ariaLabel="Certificaciones"
-        />
-      </div>
+      {isMobile ? (
+        <BrandsStatic />
+      ) : (
+        <div style={{ 
+          height: '50px', 
+          position: 'relative', 
+          overflow: 'hidden', 
+          background: '#043139', 
+          borderRadius: '24px', 
+          padding: '8px',
+          width: '100%'
+        }}>
+          <LogoLoop
+            logos={brandLogos}
+            speed={1}
+            direction="left"
+            logoHeight={32}
+            gap={60}
+            repeatCount={6}
+            fadeOut={true}
+            scaleOnHover
+            ariaLabel="Certificaciones"
+          />
+        </div>
+      )}
     </section>
   );
 }

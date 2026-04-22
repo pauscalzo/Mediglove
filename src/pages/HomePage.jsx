@@ -17,7 +17,7 @@ export default function HomePage() {
       <WholesaleSection />
       <InfoCardsMagicBento glowColor="126, 194, 192" />
       <div style={{ marginTop: '32px', display: 'flex', justifyContent: 'center' }}>
-        <DownloadCatalog onClick={() => window.open('/catalogo.pdf', '_blank')} />
+        <DownloadCatalog onClick={() => window.open(`${process.env.PUBLIC_URL}/img/catalogo-triptico-web.pdf`, '_blank')} />
       </div>
     </>
   );

@@ -7,10 +7,7 @@ function DownloadCatalog({ onClick }) {
   return (
     <ClickSpark>
       <button className={styles.downloadBtn} onClick={() => {
-        // Mostrar el efecto ClickSpark antes de abrir el link
-        setTimeout(() => {
-          // window.open('/catalogo.pdf', '_blank'); // Descomentar para habilitar el link
-        }, 600); // 600ms para visualizar el efecto
+        window.open(`${process.env.PUBLIC_URL}/img/catalogo-triptico-web.pdf`, '_blank');
       }}>
         <div className={styles.rowContent}>
           <span className={styles.iconCircle}>

@@ -210,7 +210,7 @@ const asesorContent = [
         <p className={styles.pinkText}>La tendencia mundial es hacia uso de guantes sin látex y sin polvo o nuevos materiales sintéticos como el nitrilo, acrilo nitrilo, polivinilo, polietileno, clorosoprene, etc.</p>
         
         <div className={styles.imageContainerCircle}>
-          <img src="./img/nota01.png" alt="Guantes médicos" />
+          <img src="./img/asesoramiento01.png" alt="Guantes médicos" />
         </div>
         
         <p>Un desarrollo especial que provee Mediglove, son los guantes "libres de polvo" rotulados POWDER-FREE compuestos de caucho natural y guantes de látex sintético también "libres de polvo" de látex natural obtuviéndose, recomendados para personas con problemas de alergia causados por el uso de guantes empolvados y por cuestiones de prevención a todo usuario en general.</p>
@@ -227,7 +227,7 @@ const asesorContent = [
         </ul>
         
         <div className={styles.imageContainerWhite}>
-          <img src="./img/nota02.png" alt="Beneficios guantes" />
+          <img src="./img/asesoramiento02.png" alt="Beneficios guantes" />
         </div>
         
         <p className={styles.pinkText}>Los guantes ODC estériles llevan una carga pesada dentro de su sala de operaciones. Protegen al usuario y al paciente de alergenos y evitan que las bacterias y otros patógenos entren en el área de trabajo quirúrgico estéril.</p>

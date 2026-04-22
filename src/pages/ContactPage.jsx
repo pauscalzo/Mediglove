@@ -2,20 +2,17 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import styles from './ContactPage.module.css';
-import ProductSlider from '../components/ProductSlider/ProductSlider';
-import Brands from '../components/Brands/Brands';
-import InfoCardsMagicBento from '../components/InfoCardsMagicBento/InfoCardsMagicBento';
-import DownloadCatalog from '../components/DownloadCatalog/DownloadCatalog';
+import { getImageUrl } from '../utils/imageHelper';
 
 export default function ContactPage() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm({
     defaultValues: {
-      firstName: '',
-      lastName: '',
+      nombre: '',
+      cuiEmpresa: '',
       email: '',
-      phone: '',
-      company: '',
-      message: ''
+      tel: '',
+      domicilio: '',
+      mensaje: ''
     }
   });
   
@@ -33,12 +30,12 @@ export default function ContactPage() {
       emailjs.init('VJHkzhhmuQfeim4Wp');
 
       const templateParams = {
-        firstName: data.firstName,
-        lastName: data.lastName,
+        nombre: data.nombre,
+        cuiEmpresa: data.cuiEmpresa,
         email: data.email,
-        phone: data.phone,
-        company: data.company,
-        message: data.message
+        tel: data.tel,
+        domicilio: data.domicilio,
+        mensaje: data.mensaje
       };
 
       // Enviar email
@@ -62,6 +59,9 @@ export default function ContactPage() {
     <div className={styles.pageContainer}>
       <div className={styles.header}>
         <h1 className={styles.title}>Queremos que nos contactes</h1>
+        <div className={styles.headerImage}>
+          <img src={getImageUrl('./img/contacto.png')} alt="Contacto" />
+        </div>
         <p className={styles.description}>
           Nuestro equipo de profesionales aguarda tu contacto para poder brindarte información y soluciones a tu medida. No dudes en contactarnos.
         </p>
@@ -70,27 +70,27 @@ export default function ContactPage() {
       <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
         <div className={styles.formGrid}>
           <div className={styles.formGroup}>
-            <label htmlFor="firstName" className={styles.label}>Nombre*</label>
+            <label htmlFor="nombre" className={styles.label}>Nombre*</label>
             <input
-              id="firstName"
+              id="nombre"
               type="text"
-              placeholder="Tu nombre"
+              placeholder=""
               className={styles.input}
-              {...register('firstName', { required: 'El nombre es requerido' })}
+              {...register('nombre', { required: 'El nombre es requerido' })}
             />
-            {errors.firstName && <span className={styles.error}>{errors.firstName.message}</span>}
+            {errors.nombre && <span className={styles.error}>{errors.nombre.message}</span>}
           </div>
 
           <div className={styles.formGroup}>
-            <label htmlFor="lastName" className={styles.label}>Apellido*</label>
+            <label htmlFor="cuiEmpresa" className={styles.label}>CUI y Nombre de la empresa*</label>
             <input
-              id="lastName"
+              id="cuiEmpresa"
               type="text"
-              placeholder="Tu apellido"
+              placeholder=""
               className={styles.input}
-              {...register('lastName', { required: 'El apellido es requerido' })}
+              {...register('cuiEmpresa', { required: 'CUI y nombre de empresa es requerido' })}
             />
-            {errors.lastName && <span className={styles.error}>{errors.lastName.message}</span>}
+            {errors.cuiEmpresa && <span className={styles.error}>{errors.cuiEmpresa.message}</span>}
           </div>
 
           <div className={styles.formGroup}>
@@ -98,7 +98,7 @@ export default function ContactPage() {
             <input
               id="email"
               type="email"
-              placeholder="tu@email.com"
+              placeholder=""
               className={styles.input}
               {...register('email', { 
                 required: 'El email es requerido',
@@ -112,59 +112,55 @@ export default function ContactPage() {
           </div>
 
           <div className={styles.formGroup}>
-            <label htmlFor="phone" className={styles.label}>Teléfono*</label>
+            <label htmlFor="tel" className={styles.label}>Tel*</label>
             <input
-              id="phone"
+              id="tel"
               type="tel"
-              placeholder="Tu teléfono"
+              placeholder=""
               className={styles.input}
-              {...register('phone', { required: 'El teléfono es requerido' })}
+              {...register('tel', { required: 'Teléfono es requerido' })}
             />
-            {errors.phone && <span className={styles.error}>{errors.phone.message}</span>}
+            {errors.tel && <span className={styles.error}>{errors.tel.message}</span>}
           </div>
 
           <div className={styles.formGroup}>
-            <label htmlFor="company" className={styles.label}>Empresa</label>
+            <label htmlFor="domicilio" className={styles.label}>Domicilio (calle / Nº / Ciudad / CP / país)*</label>
             <input
-              id="company"
+              id="domicilio"
               type="text"
-              placeholder="Tu empresa (opcional)"
+              placeholder=""
               className={styles.input}
-              {...register('company')}
+              {...register('domicilio', { required: 'Domicilio es requerido' })}
             />
+            {errors.domicilio && <span className={styles.error}>{errors.domicilio.message}</span>}
           </div>
 
           <div className={styles.formGroup}>
-            <label htmlFor="message" className={styles.label}>Mensaje*</label>
+            <label htmlFor="mensaje" className={styles.label}>Mensaje*</label>
             <textarea
-              id="message"
-              placeholder="Tu mensaje..."
+              id="mensaje"
+              placeholder=""
               className={styles.textarea}
               rows="6"
-              {...register('message', { required: 'El mensaje es requerido' })}
+              {...register('mensaje', { required: 'El mensaje es requerido' })}
             />
-            {errors.message && <span className={styles.error}>{errors.message.message}</span>}
+            {errors.mensaje && <span className={styles.error}>{errors.mensaje.message}</span>}
           </div>
         </div>
 
         {submitMessage && <div className={styles.successMessage}>{submitMessage}</div>}
         {submitError && <div className={styles.errorMessage}>{submitError}</div>}
 
+        <p className={styles.requiredNote}>*Todos los campos son obligatorios</p>
+
         <button 
           type="submit" 
           className={styles.submitButton}
           disabled={isSubmitting}
         >
-          {isSubmitting ? 'Enviando...' : 'Enviar Mensaje'}
+          {isSubmitting ? 'Enviando...' : 'Enviar'}
         </button>
       </form>
-
-      <ProductSlider />
-      <Brands />
-      <InfoCardsMagicBento glowColor="126, 194, 192" />
-      <div style={{ marginTop: '32px', display: 'flex', justifyContent: 'center' }}>
-        <DownloadCatalog onClick={() => window.open('/catalogo.pdf', '_blank')} />
-      </div>
     </div>
   );
 }

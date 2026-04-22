@@ -1,0 +1,35 @@
+.brandsStatic {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+  align-items: center;
+  justify-items: center;
+  background: #0b1a1a;
+  border-radius: 24px;
+  padding: 20px;
+  width: 100%;
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+  display: block;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .brandsStatic {
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .logo {
+    height: 24px;
+  }
+}

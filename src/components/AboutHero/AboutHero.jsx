@@ -14,7 +14,7 @@ export default function AboutHero() {
       </div>
       <div className={styles.imageWrapper}>
         <img 
-          src={getImageUrl('./img/banner-nitrilo-fuchsia.png')} 
+          src={getImageUrl('./img/quienes-somos.png')} 
           alt="Quiénes somos" 
           className={styles.image}
         />

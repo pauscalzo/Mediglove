@@ -5,7 +5,7 @@
 }
 
 .header {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto 60px;
   padding: 0;
   text-align: center;
@@ -19,32 +19,58 @@
   letter-spacing: -0.5px;
 }
 
+.headerImage {
+  margin: 32px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.headerImage img {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+}
+
 .description {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #fff;
   line-height: 1.8;
   margin: 0;
+  padding: 0 24px;
 }
 
 .form {
   max-width: 900px;
   margin: 0 auto;
-  background: #043139;
-  padding: 60px;
-  border-radius: 25px;
-  border: 1px solid rgba(200, 156, 178, 0.2);
+}
+
+.formContainer {
+  display: block;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
 }
 
 .formGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px;
+  gap: 24px;
   margin-bottom: 32px;
 }
 
 .formGroup {
   display: flex;
   flex-direction: column;
+}
+
+.formGroup:nth-child(3) {
+  grid-column: span 1;
+}
+
+.formGroup:nth-child(4) {
+  grid-column: span 1;
 }
 
 .formGroup:nth-child(5) {
@@ -56,11 +82,10 @@
 }
 
 .label {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #C89CB2;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #fff;
   margin-bottom: 8px;
-  text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
@@ -68,7 +93,7 @@
 .textarea {
   background: #fff;
   border: none;
-  border-radius: 12px;
+  border-radius: 30px;
   padding: 16px 20px;
   font-size: 1rem;
   color: #043139;
@@ -79,7 +104,7 @@
 .input:focus,
 .textarea:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(200, 156, 178, 0.3);
+  box-shadow: 0 0 0 3px rgba(120, 186, 185, 0.3);
 }
 
 .textarea {
@@ -114,24 +139,32 @@
   font-size: 0.95rem;
 }
 
-.submitButton {
-  width: 100%;
-  padding: 16px 32px;
-  background: linear-gradient(135deg, #C89CB2 0%, #ED9BC3 100%);
+.requiredNote {
+  font-size: 0.85rem;
+  font-weight: 400;
   color: #fff;
-  border: none;
-  border-radius: 12px;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+}
+
+.submitButton {
+  padding: 16px 32px;
+  background: #78BAB9;
+  color: #043139;
+  border: 1px solid #fff;
+  border-radius: 30px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-transform: uppercase;
   letter-spacing: 0.5px;
+  min-width: 200px;
 }
 
 .submitButton:hover:not(:disabled) {
+  background: #5aa5a2;
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(200, 156, 178, 0.3);
+  box-shadow: 0 10px 30px rgba(120, 186, 185, 0.3);
 }
 
 .submitButton:active:not(:disabled) {
@@ -145,28 +178,113 @@
 
 @media (max-width: 768px) {
   .pageContainer {
-    padding: 40px 5px;
+    padding: 32px 16px;
   }
 
   .header {
-    margin-bottom: 40px;
+    margin-bottom: 32px;
   }
 
   .title {
     font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding: 0 12px;
+  }
+
+  .headerImage {
+    margin: 24px auto;
+  }
+
+  .headerImage img {
+    max-width: 180px;
   }
 
   .form {
-    padding: 40px 24px;
+    max-width: 100%;
   }
 
   .formGrid {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .formGroup {
+    display: flex;
+    flex-direction: column;
   }
 
   .formGroup:nth-child(5),
   .formGroup:nth-child(6) {
     grid-column: span 1;
+  }
+
+  .label {
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+  }
+
+  .input,
+  .textarea {
+    padding: 12px 16px;
+    font-size: 0.95rem;
+  }
+
+  .textarea {
+    font-size: 0.9rem;
+  }
+
+  .submitButton {
+    width: 100%;
+    padding: 14px 24px;
+    font-size: 0.95rem;
+    min-width: auto;
+  }
+
+  .requiredNote {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageContainer {
+    padding: 24px 12px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    padding: 0 8px;
+  }
+
+  .headerImage {
+    margin: 16px auto;
+  }
+
+  .headerImage img {
+    max-width: 150px;
+  }
+
+  .formGrid {
+    gap: 12px;
+  }
+
+  .input,
+  .textarea {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+
+  .submitButton {
+    padding: 12px 20px;
+    font-size: 0.9rem;
   }
 }
